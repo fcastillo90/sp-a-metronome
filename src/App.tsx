@@ -1,17 +1,24 @@
 import { useState } from 'react'
-import { Layout, Button, RoundedButton, Text } from '@/components'
+import { Layout, Button, RoundedButton, Text, RippleLoader } from '@/components'
 import { getSongsWithBpm } from '@/utils/getSongsWithBpm'
 import songList from '@/assets/bpm.json'
+import { useGetSongsByBpmQuery } from '@/store/services/ApiBpmSlice'
 
 const bpmToRender = [72, 74, 82, 84, 128, 138]
 
 function App() {
   const [bpm, setBpm] = useState(72)
+  const {data, isFetching} = useGetSongsByBpmQuery(bpm)
+  console.log({data})
+  
   return (
     <Layout
       fullScreen={true}
       direction="column"
       spacing={116}
+      style={{
+        padding: 32
+      }}
     >
       <Text
         variant="h1"
@@ -71,6 +78,23 @@ function App() {
               </Text>
             )
           })}
+          {
+            isFetching ? 
+              <RippleLoader />
+              :
+              data && data.tempo.map(({artist, song_title}) => {
+              return (
+                <Text
+                  key={`${song_title}-text`}
+                  color='white'
+                  disableMargin={true}
+                >
+                  {song_title} ({artist.name})
+                </Text>
+              )
+            })
+          }
+
         </Layout>
       </Layout>
     </Layout>
