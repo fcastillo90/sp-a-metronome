@@ -6,6 +6,11 @@ interface RoundedButtonProps extends React.InputHTMLAttributes<HTMLButtonElement
   bpm?: number;
 }
 
+/**
+ * Renders a rounded button with ripple effect on bpm
+ * @param {('primary' | 'secondary')} color - The color of the button.
+ * @param {number} bpm - The bpm of the button.
+ */
 const RoundedButton = styled.button<RoundedButtonProps>` 
   background-color: ${({theme, color = 'primary'}) => {
     return theme.palette[color].main
@@ -37,7 +42,7 @@ const RoundedButton = styled.button<RoundedButtonProps>`
     animation-name: ripple;
     animation-duration: ${({bpm = 0}) => getSeconds(bpm)}s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-out;
+    animation-timing-function: linear;
 
   }
 
