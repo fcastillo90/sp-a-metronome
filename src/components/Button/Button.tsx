@@ -1,4 +1,3 @@
-import { PaletteOptions } from "@/types";
 import styled from "styled-components";
 
 interface ButtonProps extends React.InputHTMLAttributes<HTMLButtonElement> {
@@ -6,9 +5,13 @@ interface ButtonProps extends React.InputHTMLAttributes<HTMLButtonElement> {
   isActive?: boolean;
 }
 
+/**
+ * Renders a button with a background color and text color.
+ * @param {('primary' | 'secondary' | 'tertiary' | 'background')} color - The color of the button.
+ * @param {boolean} isActive - True if the button is active
+ */
 const Button = styled.button<ButtonProps>` 
   background-color: ${({theme, isActive=false, color = 'tertiary'}) => {
-    console.log(theme, color)
     if (isActive) return theme.palette.secondary.main
     return theme.palette[color].main
   }};
@@ -16,7 +19,7 @@ const Button = styled.button<ButtonProps>`
     if(isActive) return theme.palette.secondary.contrastText
     return theme.palette[color].contrastText
   }};
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: normal;
   min-height: 35px;
   min-width: 84px;
