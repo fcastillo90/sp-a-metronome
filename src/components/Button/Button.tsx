@@ -29,6 +29,9 @@ const Button = styled.button<ButtonProps>`
   border-width: 0px;
   border-radius: 5px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  :hover {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.05);
+  }
 `
 
 export default Button
