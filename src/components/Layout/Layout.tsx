@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import theme from '@/style'
 
-interface LayoutProps extends React.InputHTMLAttributes<HTMLDivElement> {
+interface LayoutProps extends React.HTMLAttributes<HTMLDivElement> {
   align?: 'start' | 'end' | 'center' | 'stretch' | 'baseline';
   backgroundColor?: string;
   direction?: 'row' | 'column';

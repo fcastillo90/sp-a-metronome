@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-interface TextProps extends React.InputHTMLAttributes<HTMLDivElement> {
+interface TextProps extends React.HTMLAttributes<HTMLDivElement> {
   variant?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p' | 'span';
   color?: 'primary' | 'secondary' | 'tertiary' | 'background' | 'white';
   disableMargin?: boolean;

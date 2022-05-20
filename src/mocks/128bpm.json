@@ -1,0 +1,246 @@
+{
+  "tempo": [
+      {
+          "song_id": "DqB",
+          "song_title": "Plump",
+          "song_uri": "https://getsongbpm.com/song/plump/DqB",
+          "tempo": "128",
+          "artist": {
+              "id": "5B",
+              "name": "Hole",
+              "uri": "https://getsongbpm.com/artist/hole/5B",
+              "img": "https://i.scdn.co/image/4d1dc978370d560ada4f7d9ef85e08ee6ec21212",
+              "genres": [
+                  "punk",
+                  "rock"
+              ],
+              "from": "US",
+              "mbid": "1dcc8968-f2cd-441c-beda-6270f70f2863"
+          },
+          "album": {
+              "title": "Live Through This",
+              "uri": "https://getsongbpm.com/album/live-through-this/o2j",
+              "img": "https://i.scdn.co/image/ab67616d00001e02be245e5b673371e6f95b19e2",
+              "year": "1994"
+          }
+      },
+      {
+          "song_id": "V5B",
+          "song_title": "Man-Size",
+          "song_uri": "https://getsongbpm.com/song/man-size/V5B",
+          "tempo": "128",
+          "artist": {
+              "id": "gZ49",
+              "name": "PJ Harvey",
+              "uri": "https://getsongbpm.com/artist/pj-harvey/gZ49",
+              "img": "https://i.scdn.co/image/d88ca473ad66439c371e39a296d04d608f0432b9",
+              "genres": [
+                  "rock"
+              ],
+              "from": "GB",
+              "mbid": "e795e03d-b5d5-4a5f-834d-162cfb308a2c"
+          },
+          "album": {
+              "title": "Rid of Me",
+              "uri": "https://getsongbpm.com/album/rid-of-me/lO6",
+              "img": "https://i.scdn.co/image/ab67616d00001e025950e19534bed4e25b6048f1",
+              "year": "1993"
+          }
+      },
+      {
+          "song_id": "68jN",
+          "song_title": "Red Light",
+          "song_uri": "https://getsongbpm.com/song/red-light/68jN",
+          "tempo": "128",
+          "artist": {
+              "id": "r86",
+              "name": "U2",
+              "uri": "https://getsongbpm.com/artist/u2/r86",
+              "img": "https://i.scdn.co/image/e22d5c0c8139b8439440a69854ed66efae91112d",
+              "genres": [
+                  "pop",
+                  "rock"
+              ],
+              "from": "IE",
+              "mbid": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432"
+          },
+          "album": {
+              "title": "War",
+              "uri": "https://getsongbpm.com/album/war/406",
+              "img": "https://i.scdn.co/image/ab67616d00001e02673526fcf35ab235e1a9d94c",
+              "year": "1983"
+          }
+      },
+      {
+          "song_id": "jRGB",
+          "song_title": "Stay",
+          "song_uri": "https://getsongbpm.com/song/stay/jRGB",
+          "tempo": "128",
+          "artist": {
+              "id": "6Al",
+              "name": "Belly",
+              "uri": "https://getsongbpm.com/artist/belly/6Al",
+              "img": "https://i.scdn.co/image/72f80f3c4f71b3054c5bbfe2f18fe00237b11d02",
+              "genres": [
+                  "pop",
+                  "rap",
+                  "rock"
+              ],
+              "from": "US",
+              "mbid": "c118bc97-11a7-41dc-a55e-48c3bcf22ac2"
+          },
+          "album": {
+              "title": "Star",
+              "uri": "https://getsongbpm.com/album/star/rzW",
+              "img": "https://i.scdn.co/image/ab67616d00001e0236a6c556ff80d89955f384c6",
+              "year": "1993"
+          }
+      },
+      {
+          "song_id": "3l2A",
+          "song_title": "Not Only Human",
+          "song_uri": "https://getsongbpm.com/song/not-only-human/3l2A",
+          "tempo": "128",
+          "artist": {
+              "id": "rlK",
+              "name": "Heather Nova",
+              "uri": "https://getsongbpm.com/artist/heather-nova/rlK",
+              "img": null,
+              "genres": [
+                  "pop",
+                  "rock"
+              ],
+              "from": "BM",
+              "mbid": "d048022b-8e7a-48b4-be28-638922556639"
+          },
+          "album": {
+              "title": "Siren",
+              "uri": "https://getsongbpm.com/album/siren/jzB",
+              "img": "https://i.scdn.co/image/b2dd3a3b2624f794d56b8f1e7c04af5bc96ed87b",
+              "year": "1998"
+          }
+      },
+      {
+          "song_id": "VjW",
+          "song_title": "Fade Away",
+          "song_uri": "https://getsongbpm.com/song/fade-away/VjW",
+          "tempo": "128",
+          "artist": {
+              "id": "yXw",
+              "name": "Chris Isaak",
+              "uri": "https://getsongbpm.com/artist/chris-isaak/yXw",
+              "img": "https://i.scdn.co/image/f6bf0b112429ddd8898cba3da52dc54f705892f9",
+              "genres": [
+                  "blues",
+                  "pop",
+                  "rock"
+              ],
+              "from": "US",
+              "mbid": "479497d4-e7c2-4e78-972e-56e78fac3995"
+          },
+          "album": {
+              "title": "Chris Isaak",
+              "uri": "https://getsongbpm.com/album/chris-isaak/LYp",
+              "img": "https://i.scdn.co/image/8012d6daa27ec35f9316f286f14c8cc7cc73d406",
+              "year": "1986"
+          }
+      },
+      {
+          "song_id": "14o",
+          "song_title": "Revolution",
+          "song_uri": "https://getsongbpm.com/song/revolution/14o",
+          "tempo": "128",
+          "artist": {
+              "id": "gJY",
+              "name": "Built to Spill",
+              "uri": "https://getsongbpm.com/artist/built-to-spill/gJY",
+              "img": "https://i.scdn.co/image/43f7ee67107939d758fbc28e40b9e52324ad38f3",
+              "genres": [
+                  "pop",
+                  "rock"
+              ],
+              "from": "US",
+              "mbid": "3ac482b8-1494-4071-a0e9-f192f9d2c2b0"
+          },
+          "album": {
+              "title": "Ultimate Alternative Wavers",
+              "uri": "https://getsongbpm.com/album/ultimate-alternative-wavers/BBX",
+              "img": "https://i.scdn.co/image/ab67616d00001e02fe49940060d95cfed0ed390b",
+              "year": "1993"
+          }
+      },
+      {
+          "song_id": "An9P",
+          "song_title": "The Ballad of Peter Pumpkinhead",
+          "song_uri": "https://getsongbpm.com/song/the-ballad-of-peter-pumpkinhead/An9P",
+          "tempo": "128",
+          "artist": {
+              "id": "mmO",
+              "name": "XTC",
+              "uri": "https://getsongbpm.com/artist/xtc/mmO",
+              "img": "https://i.scdn.co/image/8f0dd2fdc6daafeb2b132a7c5c2965de442b36f5",
+              "genres": [
+                  "pop",
+                  "rock"
+              ],
+              "from": "GB",
+              "mbid": "97c86b2c-2765-46a2-aef8-76a7e24c430f"
+          },
+          "album": {
+              "title": "Nonsuch",
+              "uri": "https://getsongbpm.com/album/nonsuch/pEy",
+              "img": "https://i.scdn.co/image/c6316cb5841683bea6cc228d76f61284ca31f453",
+              "year": "1992"
+          }
+      },
+      {
+          "song_id": "p7m",
+          "song_title": "Raspberry Swirl",
+          "song_uri": "https://getsongbpm.com/song/raspberry-swirl/p7m",
+          "tempo": "128",
+          "artist": {
+              "id": "BBX",
+              "name": "Tori Amos",
+              "uri": "https://getsongbpm.com/artist/tori-amos/BBX",
+              "img": "https://i.scdn.co/image/f935d04766987d00872ab725bd06359e6b2d2b0a",
+              "genres": [
+                  "pop",
+                  "rock"
+              ],
+              "from": "US",
+              "mbid": "c0b2500e-0cef-4130-869d-732b23ed9df5"
+          },
+          "album": {
+              "title": "From the Choirgirl Hotel",
+              "uri": "https://getsongbpm.com/album/from-the-choirgirl-hotel/k6D9x",
+              "img": "https://lastfm.freetls.fastly.net/i/u/4962869742ed4dfdac7c31bc3190cc6e.png",
+              "year": "1998"
+          }
+      },
+      {
+          "song_id": "APq1",
+          "song_title": "There's Something Not as Valid When the Scenery is a Postcard",
+          "song_uri": "https://getsongbpm.com/song/there-s-something-not-as-valid-when-the-scenery-is-a-postcard/APq1",
+          "tempo": "128",
+          "artist": {
+              "id": "8R2",
+              "name": "The Faint",
+              "uri": "https://getsongbpm.com/artist/the-faint/8R2",
+              "img": "https://i.scdn.co/image/271c96aa0d602fa5575107331055471ff52da527",
+              "genres": [
+                  "electronic",
+                  "punk",
+                  "rock"
+              ],
+              "from": "US",
+              "mbid": "a1419808-65d3-4d40-998c-1a0bac65eabc"
+          },
+          "album": {
+              "title": "Media",
+              "uri": "https://getsongbpm.com/album/media/rkBk",
+              "img": "https://i.scdn.co/image/9faf7fe82dcd4dd4787d25677ba30fe3ed5f1044",
+              "year": "1998"
+          }
+      }
+  ]
+}
