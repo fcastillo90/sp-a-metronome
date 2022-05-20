@@ -32,6 +32,7 @@ It contains:
 
 5. Execute `pnpm run dev`
 6. Execute `pnpm run test` to run unit testing
+7. Execute `pnpm run storybook` to run storybook
 
 ##  Stack
 
