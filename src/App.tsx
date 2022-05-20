@@ -1,16 +1,27 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Layout, Button, RoundedButton, Text, RippleLoader } from '@/components'
 import { getSongsWithBpm } from '@/utils/getSongsWithBpm'
 import songList from '@/assets/bpm.json'
 import { useGetSongsByBpmQuery } from '@/store/services/ApiBpmSlice'
+import useClickBpm from '@/hooks/useClickBpm'
 
 const bpmToRender = [72, 74, 82, 84, 128, 138]
+
 
 function App() {
   const [bpm, setBpm] = useState(72)
   const {data, isFetching} = useGetSongsByBpmQuery(bpm)
-  console.log({data})
-  
+  const [clickTempo, setClickTempo, handleClick] = useClickBpm()
+
+  const handleSetBpm = (bpm: number) => {
+    setBpm(bpm)
+    setClickTempo(0)
+  }
+
+  useEffect(() => {
+    if (clickTempo) setBpm(clickTempo)
+  }, [clickTempo])
+
   return (
     <Layout
       fullScreen={true}
@@ -29,8 +40,9 @@ function App() {
       </Text>
       <RoundedButton
         bpm={bpm}
+        onClick={handleClick}
       >
-        {bpm}
+        {clickTempo ? clickTempo : bpm}
       </RoundedButton>
       <Layout
         direction="column"
@@ -46,7 +58,7 @@ function App() {
             return (
               <Button
                 key={`${value}-button`}
-                onClick={() => setBpm(value)}
+                onClick={() => handleSetBpm(value)}
                 isActive={bpm === value}
                 aria-label={`${value} bpm`}
               >
@@ -70,7 +82,7 @@ function App() {
           {getSongsWithBpm(songList, bpm).map(([title, artist]) => {
             return (
               <Text
-                key={`${title}-text`}
+                key={`${title}-json-text`}
                 color='white'
                 disableMargin={true}
               >
@@ -85,7 +97,7 @@ function App() {
               data && data.tempo.map(({artist, song_title}) => {
               return (
                 <Text
-                  key={`${song_title}-text`}
+                  key={`${song_title}-api-text`}
                   color='white'
                   disableMargin={true}
                 >

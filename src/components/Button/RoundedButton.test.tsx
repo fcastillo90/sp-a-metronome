@@ -1,21 +1,21 @@
 import theme from '@/style';
 import { render, screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event'
 import { ThemeProvider } from 'styled-components';
-import Button from './Button';
+import RoundedButton from './RoundedButton';
+import userEvent from '@testing-library/user-event'
 
-describe('Button', () => {
+describe('RoundedButton', () => {
   it('renders without crashing', async () => {
     const user = userEvent.setup()
     const handleClick = jest.fn(() => {});
     render(
       <ThemeProvider theme={theme}>
-        <Button 
+        <RoundedButton
           data-testid="button"
           onClick={handleClick}
         >
           test
-        </Button>
+        </RoundedButton>
       </ThemeProvider>
     )
     expect(screen.queryByText('test')).toBeTruthy()

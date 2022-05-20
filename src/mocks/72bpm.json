@@ -1,0 +1,252 @@
+{
+  "tempo": [
+      {
+          "song_id": "rNp",
+          "song_title": "Tiny Dancer",
+          "song_uri": "https://getsongbpm.com/song/tiny-dancer/rNp",
+          "tempo": "72",
+          "artist": {
+              "id": "36r",
+              "name": "Elton John",
+              "uri": "https://getsongbpm.com/artist/elton-john/36r",
+              "img": "https://i.scdn.co/image/f50ae3e5cf3637c5f486b6205468c245644be36e",
+              "genres": [
+                  "pop",
+                  "rock"
+              ],
+              "from": "GB",
+              "mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822"
+          },
+          "album": {
+              "title": "Madman Across the Water",
+              "uri": "https://getsongbpm.com/album/madman-across-the-water/2WP",
+              "img": "https://i.scdn.co/image/ab67616d00001e02d03ab2da904d8251a87bbc31",
+              "year": "1971"
+          }
+      },
+      {
+          "song_id": "3y2A",
+          "song_title": "Intro",
+          "song_uri": "https://getsongbpm.com/song/intro/3y2A",
+          "tempo": "72",
+          "artist": {
+              "id": "8Vl",
+              "name": "Insane Clown Posse",
+              "uri": "https://getsongbpm.com/artist/insane-clown-posse/8Vl",
+              "img": "https://i.scdn.co/image/e7a76e667ec902783ed9cd09bc4e306049f3177d",
+              "genres": [
+                  "hip hop",
+                  "rap",
+                  "rock"
+              ],
+              "from": "US",
+              "mbid": "7a1eb805-2242-4daa-bd90-c1ed350e2e48"
+          },
+          "album": {
+              "title": "The Amazing Jeckel Brothers",
+              "uri": "https://getsongbpm.com/album/the-amazing-jeckel-brothers/mwBp",
+              "img": "https://i.scdn.co/image/ab67616d00001e029519dd6ed62c7ee2424ad9cb",
+              "year": "1999"
+          }
+      },
+      {
+          "song_id": "98A3",
+          "song_title": "Como yo te amé",
+          "song_uri": "https://getsongbpm.com/song/como-yo-te-ame/98A3",
+          "tempo": "72",
+          "artist": {
+              "id": "EoN",
+              "name": "Luis Miguel",
+              "uri": "https://getsongbpm.com/artist/luis-miguel/EoN",
+              "img": "https://i.scdn.co/image/f424bbdeb0977d4e1d170c11301019f1b494b0e9",
+              "genres": [
+                  "latin",
+                  "pop"
+              ],
+              "from": "MX",
+              "mbid": "90270118-8ed0-4446-bf97-8a09b3f9e8f3"
+          },
+          "album": {
+              "title": "Segundo romance",
+              "uri": "https://getsongbpm.com/album/segundo-romance/n55W",
+              "img": "https://i.scdn.co/image/ab67616d00001e02830debe4a54e0122a6138a71",
+              "year": "1994"
+          }
+      },
+      {
+          "song_id": "4822",
+          "song_title": "Ayúdame Freud",
+          "song_uri": "https://getsongbpm.com/song/ayudame-freud/4822",
+          "tempo": "72",
+          "artist": {
+              "id": "XKk",
+              "name": "Ricardo Arjona",
+              "uri": "https://getsongbpm.com/artist/ricardo-arjona/XKk",
+              "img": "https://i.scdn.co/image/3f57a92a47892421d87642e25a4725536bcbb820",
+              "genres": [
+                  "latin",
+                  "pop"
+              ],
+              "from": "GT",
+              "mbid": "40627299-0979-45ba-8924-2af5fdc36ea8"
+          },
+          "album": {
+              "title": "Historias",
+              "uri": "https://getsongbpm.com/album/historias/v9OJn",
+              "img": "https://i.scdn.co/image/ab67616d00001e0298bf0a6f6828a3ee131d5a02",
+              "year": "1994"
+          }
+      },
+      {
+          "song_id": "Pz4W",
+          "song_title": "Bubble",
+          "song_uri": "https://getsongbpm.com/song/bubble/Pz4W",
+          "tempo": "72",
+          "artist": {
+              "id": "gJo3",
+              "name": "The Minders",
+              "uri": "https://getsongbpm.com/artist/the-minders/gJo3",
+              "img": "https://i.scdn.co/image/87d4427222c304baa65b328a814b6c75c03ad8bb",
+              "genres": [
+                  "pop",
+                  "rock"
+              ],
+              "from": "US",
+              "mbid": "a0cf076f-2fa8-476a-84e2-6d9980c0deb9"
+          },
+          "album": {
+              "title": "Hooray for Tuesday",
+              "uri": "https://getsongbpm.com/album/hooray-for-tuesday/1rGG",
+              "img": "https://i.scdn.co/image/fa614e7fbb8592d0355a54cc970995af81e7390b",
+              "year": "1998"
+          }
+      },
+      {
+          "song_id": "gQnr",
+          "song_title": "Kill the Nazis",
+          "song_uri": "https://getsongbpm.com/song/kill-the-nazis/gQnr",
+          "tempo": "72",
+          "artist": {
+              "id": "R6Wz",
+              "name": "Total Chaos",
+              "uri": "https://getsongbpm.com/artist/total-chaos/R6Wz",
+              "img": "https://i.scdn.co/image/630e25c0a91862348d575fd32cc97e19885d486d",
+              "genres": [
+                  "hip hop",
+                  "punk",
+                  "rap",
+                  "rock"
+              ],
+              "from": "US",
+              "mbid": "63598b0b-2fe3-449e-bfa7-325792aee8e8"
+          },
+          "album": {
+              "title": "Patriotic Shock",
+              "uri": "https://getsongbpm.com/album/patriotic-shock/Oy0g",
+              "img": "https://i.scdn.co/image/2fce35deb8e12ad0d8d035611a6c93ea8d9ff4ff",
+              "year": "1995"
+          }
+      },
+      {
+          "song_id": "z6Br",
+          "song_title": "Si nous déposions les armes",
+          "song_uri": "https://getsongbpm.com/song/si-nous-deposions-les-armes/z6Br",
+          "tempo": "72",
+          "artist": {
+              "id": "DkWY",
+              "name": "Dolly",
+              "uri": "https://getsongbpm.com/artist/dolly/DkWY",
+              "img": "https://i.scdn.co/image/bbd7aa224755d601336e56f72efd0fe6b138d96f",
+              "genres": [
+                  "pop",
+                  "rock"
+              ],
+              "from": "FR",
+              "mbid": "29b4ba11-6696-4af9-81e2-514449a98ff8"
+          },
+          "album": {
+              "title": "Dolly",
+              "uri": "https://getsongbpm.com/album/dolly/0goX",
+              "img": "https://i.scdn.co/image/e421b93fec00db1cd092d6204670463cb31da652",
+              "year": "1997"
+          }
+      },
+      {
+          "song_id": "ExRm",
+          "song_title": "Purple Passages",
+          "song_uri": "https://getsongbpm.com/song/purple-passages/ExRm",
+          "tempo": "72",
+          "artist": {
+              "id": "ERwv",
+              "name": "Lyle Workman",
+              "uri": "https://getsongbpm.com/artist/lyle-workman/ERwv",
+              "img": "https://i.scdn.co/image/ab67616d0000b273afea3affe427927354987fc3",
+              "genres": [
+                  "blues",
+                  "funk",
+                  "jazz",
+                  "rock",
+                  "soul"
+              ],
+              "from": "US",
+              "mbid": "d22e8777-8f52-43ac-9ab9-dd4e639d16da"
+          },
+          "album": {
+              "title": "Purple Passages",
+              "uri": "https://getsongbpm.com/album/purple-passages/0VLN",
+              "img": "https://i.scdn.co/image/40f621cbd0502434c9ff94aa69b658f79f7981a6",
+              "year": "1996"
+          }
+      },
+      {
+          "song_id": "oyQA",
+          "song_title": "Think It Over",
+          "song_uri": "https://getsongbpm.com/song/think-it-over/oyQA",
+          "tempo": "72",
+          "artist": {
+              "id": "L9Ew",
+              "name": "The Call",
+              "uri": "https://getsongbpm.com/artist/the-call/L9Ew",
+              "img": "https://i.scdn.co/image/1b14bd24798f474cc531fe494d0c9b55f484ce57",
+              "genres": [
+                  "pop",
+                  "rock"
+              ],
+              "from": "US",
+              "mbid": "38633e0c-1296-49f5-bacc-2e80ae1e18c4"
+          },
+          "album": {
+              "title": "To Heaven and Back",
+              "uri": "https://getsongbpm.com/album/to-heaven-and-back/pQ2y",
+              "img": "https://i.scdn.co/image/c7b6d2bb3a04b5b446cc89a0e4eb42c11b00bd88",
+              "year": "1997"
+          }
+      },
+      {
+          "song_id": "jO0y",
+          "song_title": "Patriotic Shock",
+          "song_uri": "https://getsongbpm.com/song/patriotic-shock/jO0y",
+          "tempo": "72",
+          "artist": {
+              "id": "R6Wz",
+              "name": "Total Chaos",
+              "uri": "https://getsongbpm.com/artist/total-chaos/R6Wz",
+              "img": "https://i.scdn.co/image/630e25c0a91862348d575fd32cc97e19885d486d",
+              "genres": [
+                  "hip hop",
+                  "punk",
+                  "rap",
+                  "rock"
+              ],
+              "from": "US",
+              "mbid": "63598b0b-2fe3-449e-bfa7-325792aee8e8"
+          },
+          "album": {
+              "title": "Patriotic Shock",
+              "uri": "https://getsongbpm.com/album/patriotic-shock/Oy0g",
+              "img": "https://i.scdn.co/image/2fce35deb8e12ad0d8d035611a6c93ea8d9ff4ff",
+              "year": "1995"
+          }
+      }
+  ]
+}

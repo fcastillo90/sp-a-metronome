@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-interface ButtonProps extends React.InputHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   color?: 'primary' | 'secondary' | 'tertiary' | 'background';
   isActive?: boolean;
 }

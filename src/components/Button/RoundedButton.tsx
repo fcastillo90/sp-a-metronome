@@ -1,7 +1,7 @@
 import { getSeconds } from "@/utils/bpmCalculator";
 import styled from "styled-components";
 
-interface RoundedButtonProps extends React.InputHTMLAttributes<HTMLButtonElement> {
+interface RoundedButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   color?: 'primary' | 'secondary';
   bpm?: number;
 }
@@ -28,6 +28,7 @@ const RoundedButton = styled.button<RoundedButtonProps>`
   margin: 0px;
   position: relative;
   z-index: 1;
+  cursor: pointer;
 
   ::before {
     content: "";

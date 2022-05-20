@@ -16,6 +16,7 @@ It contains:
 - [X] custom hooks
 - [X] path aliases
 - [X] basic test
+- [X] JSdoc documentation
 
 ## STEPS TO RUN
 

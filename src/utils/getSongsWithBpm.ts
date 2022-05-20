@@ -7,3 +7,5 @@ type Song = (string | number)[]
  * @returns the array of songs with the bpm
  */
 export const getSongsWithBpm = (songs: Song[], bpm: number) => songs.filter((song) => song[2] === bpm);
+
+export default getSongsWithBpm

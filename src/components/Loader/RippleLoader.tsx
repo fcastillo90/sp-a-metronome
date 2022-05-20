@@ -49,8 +49,8 @@ const StyledRippleLoader = styled.div `
   }
 `
 
-const RippleLoader = () => {
-  return <StyledRippleLoader><div></div><div></div></StyledRippleLoader>
+const RippleLoader = (props: React.HTMLAttributes<HTMLDivElement>) => {
+  return <StyledRippleLoader {...props}><div></div><div></div></StyledRippleLoader>
 }
 
 export default RippleLoader
