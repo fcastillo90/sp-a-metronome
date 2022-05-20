@@ -46,6 +46,7 @@ It contains:
 - Testing library
 - Styled components
 - MSW
+
 *Developed using node v18*
 
 ***enjoy!***
