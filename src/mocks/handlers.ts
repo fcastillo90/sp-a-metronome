@@ -7,7 +7,6 @@ const handlers = [
   rest.get(`/tempo/`, (req, res, ctx) => {
     const bpm = req.url.searchParams.get('bpm')
 
-    console.log({bpm})
     if (bpm === '72') {
       return res(
         ctx.status(200),
